@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: rgb(191, 138, 226);
+    margin: 50px;
+}
+h1 {
+    color: black;
+}
+input {
+    margin: 10px;
+    padding: 5px;
+    font-size: 16px;
+    border: 2px solid #2c3e50;
+    border-radius: 5px;
+}
+.button-continer {
+    margin-top: 20px;
+}
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button:hover {
+    opacity: 0.7;
+}
+.suma {
+    background-color: rgb(98, 6, 110);
+    color: white;
+}
+.resta {
+    background-color: rgb(80, 8, 87);
+    color: white;
+}
+.multiplicación {
+    background-color: rgb(88, 9, 99);
+    color: white;
+}
+.división {
+    background-color: rgb(102, 13, 110);
+    color: white;
+}
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #2c3e50;
+}
